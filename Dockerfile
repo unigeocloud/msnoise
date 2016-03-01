@@ -11,7 +11,6 @@ ENV NOVNC_PORT 6901
 ############### miniconda installation ####
 RUN yum install gcc gcc-c++ bzip2 libxslt-devel freetype-devel libpng-devel libX11-devel lapack-devel blas-devel libsamplerate-devel -y;
 RUN yum install python-pip python-devel PyQt4 -y;
-RUN pip install --upgrade pip;
 
 ############## mysql #######################
 RUN yum install http://repo.mysql.com/yum/mysql-5.6-community/el/7/x86_64/mysql-community-release-el7-5.noarch.rpm -y;
