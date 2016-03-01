@@ -24,7 +24,7 @@ The full information about package can be found on: http://www.msnoise.org.
 ### Manual Build
 
 * `docker build -t unigeocloud/msnoise:latest .`
-* `docker run -p 6901:6901 -ti  unigeocloud/msnoise:latest:latest`
+* `docker run -p 6901:6901 -ti  unigeocloud/msnoise:latest`
 * `firefox http://localhost:6901`
 
 ## On DockerHub / GitHub
